@@ -35,22 +35,28 @@
   }
   
   .menutext:hover {
-    color: black;
+    color: rgba(0, 0, 0, 0.527);
   }
   
   button.mediatext {
-    color: #5f5f5f;
+    /* color: #5f5f5f; */
+    background-color: white;
   }
   
   button.mediatext:hover {
-    color: #5f5f5f;
+    /* color: #5f5f5f77; */
+    background-color: #5f5f5f1e;
+    height: 25px;
+    width: auto;
+    border-radius: 5px;
+    
   }
   
   .mediatext {
     font-size: 15px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: #5f5f5f;
+    /* color: #5f5f5f; */
   }
   
   i {
@@ -69,7 +75,7 @@
     font-weight: bolder;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+    background-image: url(/assets/edit-regular.svg);
     background-repeat: no-repeat;
     background-size: auto;
   }
@@ -114,10 +120,13 @@
   
   button.ref {
     color: white;
+    background-color: white;
   }
   
   button.ref:hover {
-    color: #5f5f5f;
+    background-color:rgba(128, 128, 128, 0.459);
+    /* color: #5f5f5f; */
+    color: white;
   }
   
   .postphoto {
@@ -133,3 +142,15 @@
     margin-left: 8px;
   }
   
+  .img1 {
+    fill: #70B5F9;
+  }
+  .img2 {
+    fill: #7FC15E;
+  }
+  .img3 {
+    fill: #E7A33E;
+  }
+  .img4 {
+    fill: #F5987E;
+  }
